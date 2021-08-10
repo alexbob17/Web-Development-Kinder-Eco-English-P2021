@@ -453,14 +453,14 @@ textarea {
     border: 1px solid var(--color-primary);
 }
 .school-classes {
-    background: url(../images/Utilidades/backgroundGreen.jpg) no-repeat center;
+    background: url(../images/Utilidades/backgroundGreen.webp) no-repeat center;
     background-size: cover;
     position: relative;
     margin-top: 2rem;
 }
 .gallery-bg {
     margin-bottom: 20px;
-    background: url(../images/Utilidades/backgroound-blue.png) no-repeat center;
+    background: url(../images/Utilidades/backgroound-blue.webp) no-repeat center;
     background-size: cover;
 }
 .school-contact {
@@ -469,7 +469,7 @@ textarea {
     height: 70vh;
 }
 .school-contact-container {
-    background: url(../images/Utilidades/BackGallery2.jpg) no-repeat center;
+    background: url(../images/Utilidades/BackGallery2.webp) no-repeat center;
     background-size: cover;
     height: 50vh;
 }
@@ -1602,7 +1602,7 @@ to {
     -o-transform: scale(3.5);
 }
 }.footer {
-    background: url(../images/Utilidades/bg-footer.png);
+    background: url(../images/Utilidades/bg-footer.webp);
     background-size: contain;
     background-position: bottom;
 }
@@ -1653,22 +1653,20 @@ to {
     padding-left: 1rem;
     color: var(--color-white)!important;
 }
-.bg-text {
-    background: url(../images/Utilidades/Backgallery4.png);
-    height: 20rem;
-    margin: 1rem 0;
-}
+
 .bg-text-blue {
     height: 10rem;
     margin: 1rem 0;
 }
-.bg-text-two {
+.bg-text{
+    background: url(../images/Utilidades/Backgallery4.png);
+    height: 20rem;
+    margin: 1rem 0;
+}
+.bg-text-two{
     background: url(../images/Utilidades/Backgallery4.png);
 }
-.bg-text-three {
-    background: url(../images/Utilidades/Backgallery4.png);
-    background-size: cover;
-}
+
 .container__bgBanner--academia {
     background: url(../images/Utilidades/ecoenglishbanner.png);
     height: 30rem;
@@ -1955,7 +1953,7 @@ nav .items span {
     display: grid;
     grid-auto-flow: column;
     margin-top: 2rem;
-    background: url(../images/Utilidades/homepage-string-middle2.png);
+    background: url(../images/Utilidades/homepage-string-middle2.webp);
     height: 15.9rem;
 }
 

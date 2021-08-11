@@ -1273,6 +1273,7 @@ nav.meta-login ul li {
 .ico-logo-academy {
     width: 300px;
     margin: 0 auto;
+    padding-top: 1rem;
 }
 .forest {
     background-image: url(../images/Svg/trees2.svg);
@@ -1654,17 +1655,22 @@ to {
     color: var(--color-white)!important;
 }
 
+.bg-text-three{
+    background: url(../images/Utilidades/Backgallery4.webp);
+    background-size: cover;
+}
+
 .bg-text-blue {
     height: 10rem;
     margin: 1rem 0;
 }
 .bg-text{
-    background: url(../images/Utilidades/Backgallery4.png);
+    background: url(../images/Utilidades/Backgallery4.webp);
     height: 20rem;
     margin: 1rem 0;
 }
 .bg-text-two{
-    background: url(../images/Utilidades/Backgallery4.png);
+    background: url(../images/Utilidades/Backgallery4.webp);
 }
 
 .container__bgBanner--academia {
@@ -1686,7 +1692,7 @@ to {
     padding-top: 10rem;
 }
 .bg-text-four {
-    background: url(../images/Utilidades/Backgallery4.png);
+    background: url(../images/Utilidades/Backgallery4.webp);
     background-size: cover;
 }
 .position-relative {

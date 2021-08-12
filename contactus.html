@@ -43,7 +43,6 @@
 
     <meta name="theme-color" content="#fafafa" />
   </head>
-    
     <body>
         <!-- SECTION INFORMATION -->
         <div class="header_meta header_meta_one">
@@ -66,6 +65,7 @@
                 </div>
             </div>
         </div>
+
         <!-- SECTION HEADER NAV -->
         <header class="site-header home-one" id="masthead">
             <div class="container">
@@ -112,74 +112,104 @@
                 </div>
             </div>
         </header>
+
         <!-- Header Start -->
         <div class="container-fluid mb-5">
             <div class="container-bgBanner">
-                <h1>Nosotros <i class="fas fa-users"></i></h1>
-                <h5>Inicio - Nosotros</h5>
+                <h1>Contacto <i class="fas fa-map-marked"></i></h1>
+                <h5>Inicio - Contacto</h5>
             </div>
-            <div class="ico-animation-kidsplant">
-                <img src="images/Svg/kidsplantas.svg" alt="medio ambiente para niños" />
+            <div class="ico-animations-kidsContact">
+                <img src="images/Svg/kidscontact.svg" alt="Contacta con eco english" />
             </div>
         </div>
         <!-- Header End -->
 
-        <!-- SECTION ABOUT -->
-        <section class="about-with-slide container-about bg-container-wallpaper">
+        <!-- Contact Start -->
+        <div class="container-fluid pt-5 bg-container-wallpaper">
             <div class="container">
-                <div class="container bg-text-blue">
-                    <div class="row">
-                        <h1>Nuestro Objetivo<i style="color: #88d735;" class="fas fa-leaf"></i></h1>
-                        <p style="font-size: 16px; color: black !important;">
-                            Promover el aprendizaje del idioma inglés a través de la combinación de metodologías directas, audio lingüísticas, visuales comunicativas, y de respuestas físicas para una comunicación más efectiva.
-                        </p>
-                    </div>
+                <div class="text-center pb-2">
+                   
+                    <h1 class="mb-4">Póngase en contacto con nosotros para cualquier consulta</h1>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 aboutus">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-7 bg-text" data-aos="fade-up">
-                                <h1 style="color: rgb(255, 255, 255) !important;">Misión <i class="fas fa-globe"></i></h1>
-                                <hr width="50px" style="border: 1px solid #fffb00;" />
-                                <p class="hover-text-green" style="color: rgb(255, 255, 255) !important;">
-                                    Fomentar una educación auténtica bilingüe que se distinga por crear experiencias enriquecedoras e inolvidables para un aprendizaje significativo basado en la calidez humana y el amor al medio ambiente.
-                                </p>
-                            </div>
-                            <div class="col-xs-12 col-sm-5" data-aos="fade-down">
-                                <div class="flexslider about-slide">
-                                    <img src="https://live.staticflickr.com/65535/51141201903_e09d4183e3_b.jpg" alt="Nosotros Eco English" />
+                    <div class="col-lg-7 mb-5">
+                        <div class="contact-form">
+                            <div id="success"></div>
+                            <form action="email.php" method="POST" >
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="contact-name"  name="nombre" placeholder="Tu nombre" required/>
+                                    <p class="help-block text-danger"></p>
                                 </div>
-                            </div>
+                                <div class="control-group">
+                                    <input type="email" class="form-control" id="contact-email"  name="email" placeholder="Tu correo" required />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control"  id="contact-subject"  name="asunto" placeholder="Asunto" required/>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control textarea-size" rows="6"  id="contact-message"  name="mensaje" placeholder="Mensaje" required></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary py-2 px-4" id="contact-submit"  type="submit">Enviar Mensaje</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 aboutus">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-5">
-                                    <div class="flexslider about-slide">
-                                        <img src="images/Eco-Images/About/about-eco-2.jpg" alt="Nosotros Eco english" />
-                                    </div>
-                                </div>
-                                <div class="ico-animation-caracolNosotros">
-                                    <img src="images/Svg/parallaxobject3.svg" alt="niños aprendiendo ingles" />
-                                </div>
-                                <div class="col-xs-12 col-sm-7 bg-text-two">
-                                    <h1 style="color: rgb(255, 255, 255) !important;">Visión <i class="fas fa-eye"></i></h1>
-                                    <hr width="50px" style="border: 1px solid #eeff03;" />
-                                    <p class="hover-text-green" style="color: rgb(255, 255, 255) !important;">
-                                        Ser reconocido como el único centro bilingüe ecológico de la ciudad de Managua con una metodología orientada en el aprendizaje del idioma inglés desde la perspectiva de las Ciencias Naturales a través
-                                        de la experimentación científica, manipulación, observación y convivencia con su entorno que le permita al estudiante experimentar, disfrutar, y proteger cualquier ecosistema de su entorno para la
-                                        conservación de la vida en el planeta y a la vez aplicar el uso del idioma en contextos reales.
-                                    </p>
-                                </div>
+                    <div class="col-lg-5 mb-5" style="padding-top: 10px;">
+                        
+                        <div class="d-flex">
+                            <i class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center text-secondary rounded-circle" style="width: 45px; height: 45px; padding: 1rem; color: white; background: #88d735;"></i>
+                            <div class="pl-3">
+                                <h5>Dirección</h5>
+                                <p>Altagracia sur, semáforos Racachaca 2c sur, 1c este</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa fa-envelope d-inline-flex align-items-center justify-content-center text-secondary rounded-circle" style="width: 45px; height: 45px; padding: 1rem; color: white; background: #88d735;"></i>
+                            <div class="pl-3">
+                                <h5>Correo</h5>
+                                <p>ecomrsgclassroom@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center text-secondary rounded-circle" style="width: 45px; height: 45px; padding: 1rem; color: white; background: #88d735;"></i>
+                            <div class="pl-3">
+                                <h5>Número</h5>
+                                <p>(+505) 7701-33050</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-clock d-inline-flex align-items-center justify-content-center text-secondary rounded-circle" style="width: 45px; height: 45px; padding: 1rem; color: white; background: #88d735;"></i>
+                            <div class="pl-3">
+                                <h5>Horarios</h5>
+                                <strong>Lunes - Viernes:</strong>
+                                <p class="m-0">08:00 AM - 12:00 M</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Mapa del sitio -->
+        <div style="text-align: center;">
+            <h1>Mapa y Localización <i class="fas fa-map-marker-alt"></i></h1>
+        </div>
+        <div class="Mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.654265225923!2d-86.29356198479282!3d12.135791535947986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7155511a39ad9f%3A0xb26844bd44ed1f0!2sPreescolar%20eco%20english!5e0!3m2!1ses!2sni!4v1619920351344!5m2!1ses!2sni"
+                width="1140"
+                height="500"
+                style="border: 0;"
+                allowfullscreen=""
+                loading="lazy"
+            ></iframe>
+        </div>
 
         <!-- FOOTER -->
         <div class="mt-5 pt-5 pb-5 footer">
@@ -283,6 +313,7 @@
                 });
             });
         </script>
+  
 
         <!-- AOS.js -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -306,5 +337,4 @@
             new WOW().init();
         </script>
     </body>
-   
 </html>

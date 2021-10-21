@@ -1,4 +1,4 @@
-//selecting all required elements
+
 const filterItem = document.querySelector(".items");
 const filterImg = document.querySelectorAll(".gallery .image");
 
@@ -50,3 +50,4 @@ function preview(element){
     document.querySelector("body").style.overflow = "auto"; //show the scroll bar on body
   }
 }
+
